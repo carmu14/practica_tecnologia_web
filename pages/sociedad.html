@@ -17,7 +17,7 @@
             <h1>Impacto de las tecnologías web en la sociedad</h1>
             <nav>
                 <ul>
-                    <!-- Uso ../ para salir de pages y volver a Inicio. -->
+                    <!-- Se usa el mismo archivo de estilos en todas las páginas. -->
                     <li><a href="../index.html">Inicio</a></li>
                     <li><a href="sociedad.html">Sociedad</a></li>
                     <li><a href="negocios.html">Negocios</a></li>
@@ -61,9 +61,12 @@
             <section>
                 <h2>Internet como espacio de comunicación y participación social</h2>
                 <p>El video presenta Internet como un espacio para comunicarse, compartir ideas y participar en la sociedad.</p>
-                <!-- Se usa controls para poder reproducir, pausar y ajustar el volumen del video. -->
+                <!-- Se usa controls para poder mostrar los botones nativos del navegador
+                 reproducir, pausar y ajustar el volumen del video. 
+                -->
                 <video controls width="320">
                     <source src="../videos/impacto-internet.webm" type="video/webm">
+                    <!-- Se usa para navegadores muy antiguos que no soportan video en Html5 -->
                     Tu navegador no admite este video. Puedes <a href="../videos/impacto-internet.webm">abrir el archivo directamente</a>.
                 </video>
             </section>
