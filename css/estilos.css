@@ -1,0 +1,22 @@
+/* Se agrega algunos colores para el diseño del sitio. */
+body {
+    color: #222222;
+    background-color: #ffffff;
+}
+
+header, footer {
+    color: #ffffff;
+    background-color: #174b78;
+}
+
+header a, footer a {
+    color: #ffffff;
+}
+
+h2, h3 {
+    color: #174b78;
+}
+
+thead, tbody th {
+    background-color: #eaf1f7;
+}

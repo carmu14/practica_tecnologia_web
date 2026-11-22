@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <!-- Está etiqueta indica al navegador como mostrar la página en celulares y tablets. 
+             width=device-width >> nos permite usar el ancho de la pantalla del dispositivo
+             initial-scale = 1.0 >> nos ayuda a establecer el nivel de zoom inicial en su tamaño normal
+        -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Sitio académico de Tecnologías Web: impacto social y empresarial, oportunidades y retos.">
+        <title>Sociedad | Impacto de las Tecnologías Web</title>
+        <link rel="stylesheet" href="../css/estilos.css">
+    </head>
+    <body>
+        <header>
+            <p>Tecnologías Web · UTPL · Primer bimestre</p>
+            <h1>Impacto de las tecnologías web en la sociedad</h1>
+            <nav>
+                <ul>
+                    <!-- Uso ../ para salir de pages y volver a Inicio. -->
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="sociedad.html">Sociedad</a></li>
+                    <li><a href="negocios.html">Negocios</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section>
+                <h2>Cuatro ámbitos de la vida cotidiana</h2>
+                <!-- En esta parte separamos cada tema en un artivulo para organizar la lectura. -->
+                <article>
+                    <h3>Educación: aprender con acompañamiento</h3>
+                    <p>Las aulas virtuales permiten consultar materiales, entregar tareas y recibir retroalimentación. Por ejemplo, un estudiante puede revisar una lectura antes de una tutoría. Es un ejemplo ilustrativo, no una medición de resultados.</p>
+                    <p>UNESCO plantea que la tecnología debe responder a las necesidades de aprendizaje y apoyar la interacción humana. La conectividad y la preparación docente condicionan sus beneficios. <a href="https://www.unesco.org/en/articles/global-education-monitoring-report-2023-technology-education-tool-whose-terms">(Global Education Monitoring Report Team, 2023)</a></p>
+                    <img src="../images/educacion.jpg" alt="Estudiantes consultando en una computadora." width="240" height="160">
+                </article>
+                <article>
+                    <h3>Comunicación: participar sin barreras</h3>
+                    <p>Los foros y las reuniones por navegador permiten intercambiar ideas a distancia. Una asociación puede publicar acuerdos en un sitio web para que sus integrantes los consulten.</p>
+                    <p>La participación requiere interfaces comprensibles y alternativas para personas con discapacidad. El video de W3C explica cómo los subtítulos y las descripciones textuales ayudan a acceder al contenido. <a href="https://www.w3.org/WAI/videos/standards-and-benefits/">(W3C WAI, 2017)</a></p>
+                    <img src="../images/comunicacion.jpg" alt="Imagen para representar una videollamada." width="240" height="180">
+                </article>
+                <article>
+                    <h3>Salud: servicios digitales centrados en las personas</h3>
+                    <p>Un portal puede facilitar la consulta de información sanitaria y la gestión de citas. Estos ejemplos de uso web forman parte de un ámbito de salud digital más amplio.</p>
+                    <p>La estrategia de la OMS señala que las iniciativas de salud digital requieren coordinación de recursos humanos, organizativos, financieros y tecnológicos. Un portal por sí solo no resuelve esas necesidades. <a href="https://www.who.int/publications/i/item/9789240116870">(World Health Organization, 2025)</a></p>
+                </article>
+                <article>
+                    <h3>Servicios digitales: trámites y acceso a información</h3>
+                    <p>Consultar un requisito o solicitar un turno mediante una página puede evitar desplazamientos para esas gestiones. Es un ejemplo de aplicación, cuya utilidad depende del servicio concreto.</p>
+                    <p>Los trámites deben ofrecer instrucciones claras, formularios con etiquetas y vías de atención para quienes encuentran barreras. Esta recomendación aplica los principios de accesibilidad explicados por <a href="https://www.w3.org/WAI/videos/standards-and-benefits/">W3C WAI (2017)</a>.</p>
+                </article>
+            </section>
+            <aside>
+                <h2>Retos para una participación equitativa</h2>
+                <ul>
+                    <li>Contar con conexión, dispositivos y habilidades para usar los servicios.</li>
+                    <li>Diseñar contenidos accesibles y comprensibles.</li>
+                    <li>Evaluar qué datos personales se solicitan y para qué se necesitan.</li>
+                    <li>Conservar opciones de atención para personas con dificultades de acceso.</li>
+                </ul>
+                <p>Estas recomendaciones son una síntesis del proyecto a partir de <a href="https://www.unesco.org/en/articles/global-education-monitoring-report-2023-technology-education-tool-whose-terms">UNESCO (2023)</a> y <a href="https://www.w3.org/WAI/videos/standards-and-benefits/">W3C WAI (2017)</a>.</p>
+            </aside>
+            <section>
+                <h2>Internet como espacio de comunicación y participación social</h2>
+                <p>El propósito de este video es mostrar cómo Internet sirve como un espacio de comunicación y participación social, donde las personas pueden compartir ideas, intercambiar información y participar en su comunidad.</p>
+                <!-- Se usa controls para poder reproducir, pausar y ajustar el volumen del video. -->
+                <video controls width="320">
+                    <source src="../videos/impacto-internet.webm" type="video/webm">
+                    Tu navegador no admite este video. Puedes <a href="../videos/impacto-internet.webm">abrir el archivo directamente</a>.
+                </video>
+            </section>
+        </main>
+        <footer>
+            <p>Actividad Práctica 1 · Trabajo académico sobre sociedad y negocios.</p>
+            <a href="contacto.html">Contacto y validador W3C</a>
+        </footer>
+    </body>
+</html>
